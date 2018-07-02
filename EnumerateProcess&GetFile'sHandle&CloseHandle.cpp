@@ -142,7 +142,7 @@ int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
-		printf("\nEnumerate all processes and get specified file's handle\n");
+		printf("\nEnumerate all processes and get specified file's handle,then choose whether to close it or not\n");
 		printf("Author:3gstudent@3gstudent\n\n");
 		printf("Usage:\n");
 		printf("     %s <absolute or relative file path> <flag>\n", argv[0]);
