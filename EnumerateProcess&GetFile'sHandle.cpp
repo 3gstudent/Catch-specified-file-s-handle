@@ -280,7 +280,7 @@ int main(int argc, char *argv[])
 					printf("[+]Pid:%d\n", handle.ProcessId);
 					printf("[+]Handle:%#x\n", handle.Handle);
 					printf("[+]Type:%#x\n", handle.ObjectTypeNumber);
-					printf("[+]ObjectAddress:%#x\n", handle.Object);
+					printf("[+]ObjectAddress:0x%p\n", handle.Object);
 					printf("[+]GrantedAccess:%#x\n", handle.GrantedAccess);
 				}
 			}
